@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.6rem;
+  background-color: rgb(3, 24, 84);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+input,
+textarea,
+button {
+  outline: none;
+}
+
+/*** Utilities ***/
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  width: 95%;
+}
